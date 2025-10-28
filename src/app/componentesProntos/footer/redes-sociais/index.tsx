@@ -1,5 +1,5 @@
 import Link from "next/link"
-import LinkIcon from "@/app/types/LinkIcon"
+import LinkIcon from "@/src/app/types/LinkIcon"
 import './index.css'
 import Image from "next/image"
 

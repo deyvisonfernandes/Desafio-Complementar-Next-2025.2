@@ -1,5 +1,5 @@
 import PageName from "../../../types/PageName"
-import HamburgerMenu from "../variante1/hamburger-menu"
+import HamburgerMenu from "./hamburger-menu"
 import "./index.css"
 import Link from "next/link"
 import Image from "next/image"
