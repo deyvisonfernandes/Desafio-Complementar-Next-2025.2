@@ -10,8 +10,6 @@ export async function POST(request: Request){
         model: openai("gpt-4o"),
         system: 'Você é um chatbot que só irá responder e conversar sobre psicologia, principalmente benefícios e características da profissão. Sobre qualquer outro tema, você deverá dizer que é um chat apenas sobre psicologia',
         messages: modelMessages,
-
-
     });
 
     return result.toUIMessageStreamResponse()

@@ -5,6 +5,7 @@ import ServicesThree from "./componentesProntos/servicos/variante3";
 import FeedbackOne from "./componentesProntos/feedback/variante1";
 import FeedbackTwo from "./componentesProntos/feedback/variante2";
 import Footer1 from "./componentesProntos/footer/variante1";
+import ChatbotOpenAi from "./componentesProntos/chatbot";
 
 export default function Home() {
 
@@ -29,6 +30,7 @@ export default function Home() {
 
   return (
     <main>
+      <ChatbotOpenAi></ChatbotOpenAi>
       <Navbar1 
         image_src="/images/logo.png" 
         pages={pages} 
